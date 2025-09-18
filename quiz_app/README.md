@@ -19,5 +19,9 @@ A simple Python-based quiz application that fetches questions from external API 
 
 ### Installation
 
-1. Install dependencies: `pip3 install requests
-`
+1. Install dependencies: `pip3 install requests`
+   The `requests` library is a simple HTTP library for Python, helping send HTTP/1.1 requests extremely easily. 
+   - Send HTTP methods: `GET`, `POST`, `PUT`, `DELETE`, etc.
+   - Handle query parameters, headers, and form data.
+   - Automatically handles things like redirection and connection pooling.
+   - Easy-to-use syntax that feels very pythonic. 
