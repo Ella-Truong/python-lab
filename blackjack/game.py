@@ -55,7 +55,7 @@ def play_blackjack():
 
     #check for player blackjack or bust
     if player_hand.hand.is_blackjack():
-        print('Blackjack! You win!')
+        print('Blackjack! YOU WIN 😄!')
         return
     if player_hand.hand.is_bust():
         print('Bust! You lose!')
