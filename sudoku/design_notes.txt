@@ -11,7 +11,8 @@
 🧱 Object-Oriented Design
  
    Sudoku has a grid of numbers - so let's start small: 
-   If you were to represent a single cell, what kind of properties or behaviors do you think that cell needs? Is it just a number? Can it be changed? ...
+   If you were to represent a single cell, what kind of properties or behaviors do you think that cell needs? 
+   Is it just a number? Can it be changed? ...
 
 
 🔄 Moving up: the Board
