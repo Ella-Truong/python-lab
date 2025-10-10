@@ -19,7 +19,7 @@
    Once you have the cell, the next level is the board, made up of 81 of those cells. So let's think through this:
  
    1. How would you store these 81 cells?
-   2. What responsibilities would you give the board? print/display the board, check if a move is valid, update a cell, check for completion,...
+   2. What responsibilities would you give the board? Print/display the board, check if a move is valid, update a cell, and check for completion, ...
 
 
 🎮 Game Layer
