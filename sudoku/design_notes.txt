@@ -2,7 +2,7 @@
 
    Instead of jumping into coding immediately, let's try to think about these questions:
    
-   1. How the structure of Sudoku puzzle?
+   1. How is the structure of a Sudoku puzzle?
    2. What kind of data or objects come to mind?
    3. What do you imagine the smallest 'unit' of the board being?
    ...
@@ -10,12 +10,13 @@
 
 🧱 Object-Oriented Design
  
-   Sudoku has a grid of numbers - so let's start small: if you were to represent a single cell, what kind of properties or behaviors do you think that cell needs? Is it just a number? Can it be changed? ...
+   Sudoku has a grid of numbers - so let's start small: 
+   If you were to represent a single cell, what kind of properties or behaviors do you think that cell needs? Is it just a number? Can it be changed? ...
 
 
 🔄 Moving up: the Board
    
-   Once you have the cell, the next level is the board - made of 81 of those cells. So let's think through this:
+   Once you have the cell, the next level is the board, made up of 81 of those cells. So let's think through this:
  
    1. How would you store these 81 cells?
    2. What responsibilities would you give the board? print/display the board, check if a move is valid, update a cell, check for completion,...
