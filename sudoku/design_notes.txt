@@ -1,0 +1,53 @@
+🧩 What is Sudoku?
+
+   Instead of jumping into coding immediately, let's try to think about these questions:
+   
+   1. How the structure of Sudoku puzzle?
+   2. What kind of data or objects come to mind?
+   3. What do you imagine the smallest 'unit' of the board being?
+   ...
+
+
+🧱 Object-Oriented Design
+ 
+   Sudoku has a grid of numbers - so let's start small: if you were to represent a single cell, what kind of properties or behaviors do you think that cell needs? Is it just a number? Can it be changed? ...
+
+
+🔄 Moving up: the Board
+   
+   Once you have the cell, the next level is the board - made of 81 of those cells. So let's think through this:
+ 
+   1. How would you store these 81 cells?
+   2. What responsibilities would you give the board? print/display the board, check if a move is valid, update a cell, check for completion,...
+
+
+🎮 Game Layer
+
+   Now that we have a board and cells...
+   
+   1. Where should user interaction live?
+   2. If a user wants to input a number, who checks if it's valid - the game class or the board? 
+   3. Should one class do everything, or should they communicate with each other cleanly?
+   ...
+
+
+🧠 Solver Logic
+
+   Let's say we want to include a solver feature:
+  
+   1. Do you think the solver should be part of the board itself, or live in a separate class?
+   2. How might it interact with the board - directly modifying it, or asking permission?
+   ...
+
+
+🧪 Flow Walkthrough - Top to Bottom
+   
+   Now, let's start the program...
+  
+   
+
+
+  
+   
+     
+  
