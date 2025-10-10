@@ -14,6 +14,8 @@
    If you were to represent a single cell, what kind of properties or behaviors do you think that cell needs? 
    Is it just a number? Can it be changed? ...
 
+   In this project, there might be Cell, Board, and Game classes. Now, think about what the main responsibilities are for each class. 
+   For example, the Cell class handles how to update and clear itself, Board and Game classes decide when and whether that should happen...
 
 🔄 Moving up: the Board
    
